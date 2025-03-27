@@ -1,4 +1,4 @@
-person_id,birth_year,start_year,working_start_age,retirement_age,death_age,retirement_year,death_year,total_earning_points,current_rentenwert,annual_pension,years_in_retirement,total_paid_pension
+person_id,birth_year,start_year,working_start_age,retirement_age,death_age,retirement_year,death_year,total_earning_points,current_pension_value,annual_pension,years_in_retirement,total_paid_pension
 0,1930,1954,24,63,70,1993,2000,46.6843066866945,15.835134912616882,739.2522946857898,7,5174.766062800529
 1,1929,1954,25,66,62,1995,1991,42.016002441550526,16.79949462879525,0.0,0,0.0
 2,1930,1954,24,60,67,1990,1997,37.731616706406285,14.491391640013362,546.7836349034045,7,3827.4854443238314

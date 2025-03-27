@@ -74,11 +74,11 @@ for sim_year in range(start_sim_year, end_sim_year + 1):
             
             # Calculate the current pension value in the retirement year (only if the person reaches retirement age)
             years_since_base = retirement_year - start_sim_year
-            current_rentenwert = base_pension_value * ((1 + growth_rate) ** years_since_base)
+            current_pension_value = base_pension_value * ((1 + growth_rate) ** years_since_base)
             
             # Nominal annual pension: only if the person reaches retirement age
             if death_year >= retirement_year:
-                annual_pension = total_earning_points * current_rentenwert
+                annual_pension = total_earning_points * current_pension_value
                 # Determine the number of years the pension is paid:
                 # If the person lives until 2024, we count until 2024; otherwise until the death year.
                 pension_end_year = min(death_year, end_sim_year + 1)  # +1 so that the death year is not counted
@@ -100,7 +100,7 @@ for sim_year in range(start_sim_year, end_sim_year + 1):
                 "retirement_year": retirement_year,
                 "death_year": death_year,
                 "total_earning_points": total_earning_points,
-                "current_rentenwert": current_rentenwert,
+                "current_pension_value": current_pension_value,
                 "annual_pension": annual_pension,
                 "years_in_retirement": years_in_retirement,
                 "total_paid_pension": total_paid_pension
