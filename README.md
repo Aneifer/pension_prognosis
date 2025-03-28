@@ -21,3 +21,27 @@ To run the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/Aneifer/pension_prognosis.git
+   ```
+
+2. **Navigate to the project directory:​**
+
+```bash
+   cd pension_prognosis
+```
+
+3. **Create and activate a virtual environment (optional but recommended):​**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+4. **Install the required dependencies:​**
+
+```bash
+pip install -r requirements.txt
+```
+
+## License
+This project is licensed under the MIT License. For more information, see the LICENSE file.
+
