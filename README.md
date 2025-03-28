@@ -10,7 +10,6 @@ The main components of the project are:
 
 - **EDA (Exploratory Data Analysis):** Exploration and visualization of datasets to derive initial insights.
 - **data:** Contains the synthetically generated datasets used for analyses.
-- **pension_forecast:** Models and algorithms for predicting pension developments.
 - **src:** Source code for data processing, modeling, and evaluation.
 
 ## Installation
