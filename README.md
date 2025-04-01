@@ -24,16 +24,16 @@ To run the project locally, follow these steps:
 
 2. **Navigate to the project directory:​**
 
-```bash
-   cd pension_prognosis
-```
+   ```bash
+      cd pension_prognosis
+   ```
 
 3. **Create and activate a virtual environment (optional but recommended):​**
 
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
 4. **Install the required dependencies:​**
 
